@@ -148,6 +148,20 @@ else
   echo "       Add 'brew \"zsh\"' to the Brewfile and run bootstrap again, or install manually: brew install zsh"
 fi
 
+
+log_step "Checking go installtion and updating zshrc..."
+
+
+if ! grep -qs 'GOPATH="$HOME/go"' ~/.zshrc; then
+  cat <<'EOF' >> ~/.zshrc
+
+# Go environment
+export GOPATH="$HOME/go"
+export PATH="$PATH:$GOPATH/bin"
+EOF
+fi
+
+
 # ------------------------------------------------------------------------------
 # Optional: macOS defaults, dev environments, dotfiles
 # ------------------------------------------------------------------------------

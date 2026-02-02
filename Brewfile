@@ -17,6 +17,7 @@ brew "k9s"
 brew "mas"
 brew "zsh"
 brew "vim"
+brew "go"
 
 # Apps
 cask "google-chrome"
