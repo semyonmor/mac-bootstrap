@@ -36,8 +36,10 @@ cask "raycast"
 #cask "lightshot-screenshot"
 #cask "iterm2"
 # https://www.spotify.com/de-en/download/mac/
-#cask "spotify"
-#cask "zoom"
+cask "spotify"
+cask "zoom"
+# https://maccy.app/
+cask maccy
 
 # https://shottr.cc/
 cask "shottr"
