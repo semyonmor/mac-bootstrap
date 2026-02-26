@@ -18,25 +18,26 @@ brew "mas"
 brew "zsh"
 brew "vim"
 brew "go"
+brew "npm"
 
 # Apps
-cask "google-chrome"
+#cask "google-chrome"
 # https://www.notion.com/
 cask "notion"
 # https://www.warp.dev/
 cask "warp"
 # https://cursor.com/
-cask "cursor"
+#cask "cursor"
 # https://www.raycast.com/core-features/clipboard-history
 cask "raycast"
 # https://www.sublimetext.com/
-cask "sublime-text"
+#cask "sublime-text"
 # https://app.prntscr.com/en/download.html
 #cask "lightshot-screenshot"
-cask "iterm2"
+#cask "iterm2"
 # https://www.spotify.com/de-en/download/mac/
-cask "spotify"
-cask "zoom"
+#cask "spotify"
+#cask "zoom"
 
 # https://shottr.cc/
 cask "shottr"
