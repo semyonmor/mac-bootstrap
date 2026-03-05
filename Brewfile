@@ -19,6 +19,11 @@ brew "zsh"
 brew "vim"
 brew "go"
 brew "npm"
+#https://awslabs.github.io/mcp/servers/aws-diagram-mcp-server
+brew "uv"
+#brew update && brew upgrade uv
+brew "graphviz"
+
 
 # Apps
 #cask "google-chrome"
