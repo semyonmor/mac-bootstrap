@@ -23,6 +23,8 @@ brew "npm"
 brew "uv"
 #brew update && brew upgrade uv
 brew "graphviz"
+# https://rectangleapp.com/
+brew "rectangle"
 
 
 # Apps
